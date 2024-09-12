@@ -1,10 +1,11 @@
 [project]
-name = "ix-gimad"
-version = "0.1.1"
+name = "postgres-migration"
+version = "0.1.0"
 description = "Non-schema database migration tool for PostgreSQL"
 authors = [
     { name = "PTNGlobal", email = "support@ptnglobalcorp.com" },
 ]
+license = { file = "LICENSE" }
 dependencies = [
     "psycopg[binary]",
     "typer",
@@ -23,7 +24,7 @@ requires = [
 build-backend = "pdm.backend"
 
 [project.urls]
-"Source" = "https://github.com/ptnglobalcorp/gimad"
+"Source" = "https://github.com/ptnglobalcorp/postgres-migrate"
 
 [tool.rye]
 managed = true
